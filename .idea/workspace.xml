@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/src/models/activity/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/src/models/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/src/models/models/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="79898bba-22da-4b5a-b042-1c77ad7252ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database_engine_pool/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/task/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/daos/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/todo_logic/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web_services/mod.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="0ao5metq" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lZ3lyPC2rHRhT2uNuFUDR3BX4U" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="settings.editor.selected.configurable" value="AtomConfig" />
+  </component>
+  <component name="RunManager" selected="Cargo.Run todo_backend (1)">
+    <configuration name="Run todo_backend (1)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package todo_backend --bin todo_backend" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/src/models" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run todo_backend" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package todo_backend --bin todo_backend" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Run todo_backend (1)" />
+        <item itemvalue="Cargo.Run todo_backend" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79898bba-22da-4b5a-b042-1c77ad7252ff" name="Default Changelist" comment="" />
+      <created>1607790953259</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607790953259</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="381" y="224" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607902400596">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="381" y="224" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1607902400596" />
+    <state x="488" y="84" key="#com.intellij.ide.util.MemberChooser" timestamp="1607901088931">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="84" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1607901088931" />
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607904070843">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1607904070843" />
+    <state width="1323" height="175" key="GridCell.Tab.0.bottom" timestamp="1607912618201">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="175" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1607912618201" />
+    <state width="1323" height="175" key="GridCell.Tab.0.center" timestamp="1607912618201">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="175" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1607912618201" />
+    <state width="1323" height="175" key="GridCell.Tab.0.left" timestamp="1607912618201">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="175" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1607912618201" />
+    <state width="1323" height="175" key="GridCell.Tab.0.right" timestamp="1607912618201">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="175" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1607912618201" />
+    <state x="224" y="10" key="SettingsEditor" timestamp="1607885562067">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="224" y="10" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1607885562067" />
+    <state width="600" height="440" key="javadoc.popup" timestamp="1607901583571">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="600" height="440" key="javadoc.popup/0.0.1366.738@0.0.1366.738" timestamp="1607901583570" />
+  </component>
+</project>
