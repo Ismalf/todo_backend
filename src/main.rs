@@ -1,6 +1,5 @@
 mod models;
 mod web_services;
-mod todo_logic;
 mod repository;
 mod database_engine_pool;
 mod schema;
