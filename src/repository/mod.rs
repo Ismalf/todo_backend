@@ -1,9 +1,31 @@
 pub mod daos;
 
-/*use super::models::task::Task;
+use crate::daos;
 
-fn create_model() {
-    let activity = Task::build_activity(String::from("Hello"), false);
-    println!("Created task \n name:{} \n state:{}", activity.get_name(), activity.get_is_done());
+#[cfg(test)]
+mod tests {
+    use crate::database_engine_pool::get_conn;
+    use diesel::{Connection, RunQueryDsl};
+    use diesel::result::Error;
+
+    #[test]
+    fn insert() {
+        let conn = get_conn(&pool).as_deref().unwrap();
+        conn.test_transaction::<_, Error, _>(|| {
+            diesel::insert_into(users)
+                .values(name.eq("Ruby"))
+                .execute(&conn)?;
+
+            let all_names = users.select(name).load::<String>(&conn)?;
+            assert_eq!(vec!["Sean", "Tess", "Ruby"], all_names);
+
+            Ok(())
+        });
+    }
+
+    #[test]
+    fn update() {}
+
+    #[test]
+    fn delete() {}
 }
-*/

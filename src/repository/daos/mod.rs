@@ -25,11 +25,17 @@ pub trait DAO<S, T, W> {
 pub struct taskDAO;
 
 impl DAO<NewTask, Task, i32> for taskDAO {
-    fn get_all(conn: &MysqlConnection) -> QueryResult<Vec<Task>> { all_tasks.order(tasks::id.asc()).load::<Task>(conn) }
+    fn get_all(conn: &MysqlConnection) -> QueryResult<Vec<Task>> {
+        all_tasks.order(tasks::id.asc()).load::<Task>(conn)
+    }
 
-    fn find_item_by_id(id: i32, conn: &MysqlConnection) -> QueryResult<Task> { all_tasks.find(id).get_result::<Task>(conn) }
+    fn find_item_by_id(id: i32, conn: &MysqlConnection) -> QueryResult<Task> {
+        all_tasks.find(id).get_result::<Task>(conn)
+    }
 
-    fn save_item(item: NewTask, conn: &MysqlConnection) -> QueryResult<usize> { diesel::insert_into(tasks::table).values(&item).execute(conn) }
+    fn save_item(item: NewTask, conn: &MysqlConnection) -> QueryResult<usize> {
+        diesel::insert_into(tasks::table).values(&item).execute(conn)
+    }
 
     fn update_item(item: Task, conn: &MysqlConnection) -> QueryResult<usize> {
         let updated_task = diesel::update(&item);
