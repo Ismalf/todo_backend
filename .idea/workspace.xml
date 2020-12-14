@@ -17,14 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79898bba-22da-4b5a-b042-1c77ad7252ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database_engine_pool/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/task/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/daos/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/todo_logic/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/web_services/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
